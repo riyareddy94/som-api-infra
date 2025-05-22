@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "appServicePlanName": {
+            "value": "demo-01-d-asp"
+        },
+        "appServiceName": {
+            "value": "demo-01-d-as"
+        },
+        "runtimeStack": {
+            "value": ""
+        },
+        "virtualNetworkResourceGroup": {
+            "value": ""
+        },
+        "virtualNetworkName": {
+            "value": ""
+        },
+        "subnetName": {
+            "value": ""
+        },
+        "useLinux": {
+            "value": true
+        },
+        "keyVaultName": {
+            "value": ""
+        },
+        "healthURL": {
+          "value": ""
+        },
+        "ipSecurityRestrictionsPreProd":{
+            "value": []
+        },
+        "ipSecurityRestrictionsProd":{
+            "value": []
+        },
+        "isAcceptanceOrProdEnv": {
+            "value": ""
+        }
+    }
+}
